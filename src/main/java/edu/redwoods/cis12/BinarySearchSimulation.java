@@ -118,7 +118,7 @@ public class BinarySearchSimulation extends AlgorithmSimulation {
             new Thread(() -> {
                 algorithmStep(searchFor, 0, gridPane.getChildren().size() - 1); // -1 because size is > last index
             }).start();
-        } catch(NumberFormatException nfe) {
+        } catch(NumberFormatException|NullPointerException n) {
             Alert a = new Alert(Alert.AlertType.ERROR);
             a.setTitle("Invalid Search");
             a.setContentText("Please enter an integer to search for in the \"Search For\" text-field.");
