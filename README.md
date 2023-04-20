@@ -58,13 +58,13 @@ stage.show();
 
 ### Instructor Demo of Scene Builder Controller Linkage
 
-## Part 1 - Use Scene Builder to Build a GUI for LinearSearchSimulation
+## Part 1 - Use Scene Builder to Build a GUI for MergeSortSimulation
 * First open binarySearchControls.fxml in scene builder and explore how it is set up.
-* Now create a new Scene Builder Project and define a similar GUI interface for linearySearchControls.fxml
-* Save it to the same file system location as BinarySearchSimulation
+* Now create a new Scene Builder Project and define a similar GUI interface for mergeSortControls.fxml
+* Save it to the same file system location as binarySearchControls.fxml (i.e. resources/edu/redwoods.cis12)
 
-## Part 2 - Modify the LinearSearchSimulation Class to Load your New GUI
+## Part 2 - Modify the MergeSortSimulation Class to Load your New GUI
 * See the BinarySearchSimulation and BinarySearchSimulationController for an example.
 
-## Part 3 - Implement the LinearSearchSimulation Algorithm
-* Referencing BinarySearchSimulation, try to implement the LinearSearchSimulation algorithm.
+## Part 3 - Implement the MergeSortSimulation Algorithm
+* Referencing LinearSearchSimulation and BinarySearchSimulation, try to implement the MergeSortSimulation algorithm.
