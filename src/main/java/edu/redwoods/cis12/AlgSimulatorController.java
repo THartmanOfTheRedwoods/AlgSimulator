@@ -26,7 +26,6 @@ public class AlgSimulatorController {
         // TODO: Make algorithm loads dynamic, or read from a folder/config file.
         algs.add(new LinearSearchSimulation(this));
         algs.add(new BinarySearchSimulation(this));
-        algs.add(new MergeSortSimulation(this));
         algorithmList.setItems(algs);
 
         algorithmList.getSelectionModel().selectedItemProperty()
