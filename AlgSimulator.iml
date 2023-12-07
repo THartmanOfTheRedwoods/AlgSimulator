@@ -9,8 +9,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="openjfx.javafx.base" level="project" />
-    <orderEntry type="library" exported="" name="openjfx.javafx.fxml" level="project" />
     <orderEntry type="library" exported="" name="openjfx.javafx.controls" level="project" />
+    <orderEntry type="library" exported="" name="openjfx.javafx.fxml" level="project" />
     <orderEntry type="library" exported="" name="openjfx.javafx.graphics" level="project" />
   </component>
 </module>
